@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.LI {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #262626;
+}
+.UL {
+  display: flex;
+}
+.UL .LI {
+  position: relative;
+  display: block;
+  color: #242935;
+  font-size: 1.5rem;
+  height: 40px;
+  width: 40px;
+  /* background: #171515; */
+  background-color: #fa8231;
+  line-height: 40px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.UL .LI:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(0.9);
+  z-index: -1;
+  transition: 0.5s;
+}
+.UL .LI:nth-child(1):before {
+  background: #4267b2;
+}
+.UL .LI:nth-child(2):before {
+  background: #1da1f2;
+}
+.UL .LI:nth-child(3):before {
+  background: #e1306c;
+}
+.UL .LI:nth-child(4):before {
+  background: #2867b2;
+}
+.UL .LI:nth-child(5):before {
+  background: #2ecc71;
+}
+.UL .LI:hover:before {
+  filter: blur(3px);
+  transform: scale(1.2);
+  /* box-shadow: 0 0 15px #d35400; */
+}
+.UL .LI:nth-child(1):hover:before {
+  box-shadow: 0 0 15px #4267b2;
+}
+.UL .LI:nth-child(2):hover:before {
+  box-shadow: 0 0 15px #1da1f2;
+}
+.UL .LI:nth-child(3):hover:before {
+  box-shadow: 0 0 15px #e1306c;
+}
+.UL .LI:nth-child(4):hover:before {
+  box-shadow: 0 0 15px #2867b2;
+}
+.UL .LI:nth-child(5):hover:before {
+  box-shadow: 0 0 15px #2ecc71;
+}
+.UL .LI:nth-child(1):hover {
+  color: #456cba;
+  box-shadow: 0 0 30px #4267b2;
+  text-shadow: 0 0 15px #4267b2;
+}
+.UL .LI:nth-child(2):hover {
+  color: #26a4f2;
+  box-shadow: 0 0 30px #1da1f2;
+  text-shadow: 0 0 15px #1da1f2;
+}
+.UL .LI:nth-child(3):hover {
+  color: #e23670;
+  box-shadow: 0 0 30px #e1306c;
+  text-shadow: 0 0 15px #e1306c;
+}
+.UL .LI:nth-child(4):hover {
+  color: #2a6cbb;
+  box-shadow: 0 0 30px #2867b2;
+  text-shadow: 0 0 15px #2867b2;
+}
+.UL .LI:nth-child(5):hover {
+  color: #2ecc71;
+  box-shadow: 0 0 30px #2ecc71;
+  text-shadow: 0 0 15px #2ecc71;
+}
+/* .UL .LI:hover{
+      color: #ffa502;
+      box-shadow: 0 0 15px #d35400;
+      text-shadow: 0 0 15px #d35400;
+    } */
