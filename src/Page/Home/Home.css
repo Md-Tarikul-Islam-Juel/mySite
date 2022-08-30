@@ -55,7 +55,7 @@
   .row-1 {
     display: flex;
     flex-flow: row wrap;
-    margin-top: 140px;
+    margin-top: 100px;
   }
   .description {
     order: 1;
@@ -71,16 +71,15 @@
   }
   .name {
     font-size: 1.5rem;
-    margin-top: 0px;
   }
   .title {
     font-size: 0.85rem;
   }
   .UL .LI {
     font-size: 0.8rem;
-    height: 25px;
-    width: 25px;
-    line-height: 25px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
   }
   .border-left {
     height: 80px;
@@ -90,6 +89,12 @@
   }
   .row > * {
     padding-left: initial;
+  }
+  .border-left .name {
+    margin-top: -4px;
+  }
+  .social-media .UL {
+    padding-left: 0;
   }
 }
 /*=================================================================*/
