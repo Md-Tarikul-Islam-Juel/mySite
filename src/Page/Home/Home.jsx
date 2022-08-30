@@ -30,7 +30,7 @@ export default function Home() {
                                 About me
                             </Button>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 juel-cover">
                             <img src={JUEL} alt="juel cover" className="juel-cover" />
                         </div>
                     </div>

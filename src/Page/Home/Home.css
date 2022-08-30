@@ -42,3 +42,56 @@
   width: 8rem;
   margin-top: 5rem;
 }
+
+/*=================================================================*/
+/*----------------------Media query start--------------------------*/
+/*=================================================================*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  ## oneplus6T width 412px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .row-1 {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 140px;
+  }
+  .description {
+    order: 1;
+    height: 270px;
+  }
+  .juel-cover {
+    height: 350px;
+  }
+  .juel-cover {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .name {
+    font-size: 1.5rem;
+    margin-top: 0px;
+  }
+  .title {
+    font-size: 0.85rem;
+  }
+  .UL .LI {
+    font-size: 0.8rem;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+  }
+  .border-left {
+    height: 80px;
+  }
+  .about-me {
+    margin-top: 2rem;
+  }
+  .row > * {
+    padding-left: initial;
+  }
+}
+/*=================================================================*/
+/*----------------------Media query End----------------------------*/
+/*=================================================================*/
