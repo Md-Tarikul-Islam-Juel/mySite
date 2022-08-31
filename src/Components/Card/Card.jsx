@@ -1,11 +1,11 @@
 import React from 'react';
-import X from '../../img/1.jpeg';
+import './Card.css';
 
-export default function Card() {
+export default function Card({ img }) {
     return (
         <>
-            <div>
-                <img src={X} alt="gallary img" />
+            <div className="card-box">
+                <img src={img} alt="gallary img" className="card-img" />
             </div>
         </>
     );

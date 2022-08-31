@@ -1,0 +1,24 @@
+.cards-row-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.CARD {
+  margin: 1.5rem 0;
+}
+
+/*=================================================================*/
+/*----------------------Media query start--------------------------*/
+/*=================================================================*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  ## oneplus6T width 412px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .cards-row-1 {
+    margin-top: initial;
+  }
+}
+/*=================================================================*/
+/*----------------------Media query End----------------------------*/
+/*=================================================================*/

@@ -1,0 +1,39 @@
+[debug] [2022-08-31T14:06:16.340Z] ----------------------------------------------------------------------
+[debug] [2022-08-31T14:06:16.343Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mdtar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-08-31T14:06:16.344Z] CLI Version:   11.8.0
+[debug] [2022-08-31T14:06:16.344Z] Platform:      win32
+[debug] [2022-08-31T14:06:16.344Z] Node Version:  v16.15.1
+[debug] [2022-08-31T14:06:16.349Z] Time:          Wed Aug 31 2022 20:06:16 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-08-31T14:06:16.350Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-31T14:06:16.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-31T14:06:16.450Z] > authorizing via signed-in user (md.tarikulislamjuel@gmail.com)
+[debug] [2022-08-31T14:06:16.450Z] [iam] checking project tarikulislamjuel for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-08-31T14:06:16.453Z] > refreshing access token with scopes: []
+[debug] [2022-08-31T14:06:16.455Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-31T14:06:16.456Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-31T14:06:17.327Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-31T14:06:17.328Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-31T14:06:17.347Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tarikulislamjuel:testIamPermissions [none]
+[debug] [2022-08-31T14:06:17.347Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tarikulislamjuel:testIamPermissions x-goog-quota-user=projects/tarikulislamjuel
+[debug] [2022-08-31T14:06:17.348Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tarikulislamjuel:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-31T14:06:58.990Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tarikulislamjuel:testIamPermissions 200
+[debug] [2022-08-31T14:06:58.990Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tarikulislamjuel:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-31T14:06:58.992Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tarikulislamjuel [none]
+[debug] [2022-08-31T14:07:07.623Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tarikulislamjuel 200
+[debug] [2022-08-31T14:07:07.623Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tarikulislamjuel {"projectId":"tarikulislamjuel","projectNumber":"31961431527","displayName":"mySite","name":"projects/tarikulislamjuel","resources":{"hostingSite":"tarikulislamjuel"},"state":"ACTIVE","etag":"1_72efd9cb-cccb-4e39-a3fb-caeca6282402"}
+[info] 
+[info] === Deploying to 'tarikulislamjuel'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-08-31T14:07:07.631Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tarikulislamjuel [none]
+[debug] [2022-08-31T14:07:10.718Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tarikulislamjuel 200
+[debug] [2022-08-31T14:07:10.718Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tarikulislamjuel {"projectId":"tarikulislamjuel","projectNumber":"31961431527","displayName":"mySite","name":"projects/tarikulislamjuel","resources":{"hostingSite":"tarikulislamjuel"},"state":"ACTIVE","etag":"1_72efd9cb-cccb-4e39-a3fb-caeca6282402"}
+[debug] [2022-08-31T14:07:10.722Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/31961431527/sites/tarikulislamjuel/versions [none]
+[debug] [2022-08-31T14:07:10.722Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/31961431527/sites/tarikulislamjuel/versions {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-08-31T14:07:48.483Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\mdtar\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
