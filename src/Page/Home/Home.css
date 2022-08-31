@@ -38,6 +38,9 @@
 .social-media {
   margin-top: 2rem;
 }
+.social-media .UL {
+  padding-left: 0;
+}
 .about-me {
   width: 8rem;
   margin-top: 5rem;

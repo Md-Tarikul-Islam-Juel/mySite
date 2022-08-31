@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import { BrowserRouter } from 'react-router-dom';
-import SideBar from '../../Components/SideBar/SideBar';
+import { Link } from 'react-router-dom';
 import SocialMedia from '../../Components/socialMedia/SocialMedia';
 import JUEL from '../../img/juel.png';
 import './Home.css';
@@ -9,10 +8,7 @@ import './Home.css';
 export default function Home() {
     return (
         <>
-            <BrowserRouter>
-                <SideBar />
-            </BrowserRouter>
-            <section className="home">
+            <section className="main-body ">
                 <div className="container">
                     <div className="row row-1">
                         <div className="col-md-6 description">
@@ -26,9 +22,12 @@ export default function Home() {
                             <div className="social-media">
                                 <SocialMedia />
                             </div>
-                            <Button variant="primary" className="about-me">
-                                About me
-                            </Button>
+
+                            <Link to="/aboutMe" className="a">
+                                <Button variant="primary" className="about-me">
+                                    About me
+                                </Button>
+                            </Link>
                         </div>
                         <div className="col-md-6 juel-cover">
                             <img src={JUEL} alt="juel cover" className="juel-cover" />

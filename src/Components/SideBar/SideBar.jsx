@@ -44,28 +44,28 @@ export default function SideBar() {
                             </li>
 
                             <li className="nav-link">
-                                <Link to="/" className="a">
+                                <Link to="/gallery" className="a">
                                     <BsFillImageFill className="icon" />
-                                    <span className="text nav-text">Galary</span>
+                                    <span className="text nav-text">Gallary</span>
                                 </Link>
                             </li>
 
                             <li className="nav-link">
-                                <Link to="/" className="a">
+                                <Link to="/projects" className="a">
                                     <FaRobot className="icon" />
                                     <span className="text nav-text">Project</span>
                                 </Link>
                             </li>
 
                             <li className="nav-link">
-                                <Link to="/" className="a">
+                                <Link to="/publications" className="a">
                                     <ImBook className="icon" />
                                     <span className="text nav-text">Publications</span>
                                 </Link>
                             </li>
 
                             <li className="nav-link">
-                                <Link to="/" className="a">
+                                <Link to="/contact" className="a">
                                     <IoMdContact className="icon" />
                                     <span className="text nav-text">Contact Me</span>
                                 </Link>
