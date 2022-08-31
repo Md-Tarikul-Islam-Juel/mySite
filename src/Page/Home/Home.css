@@ -58,7 +58,7 @@
   .row-1 {
     display: flex;
     flex-flow: row wrap;
-    margin-top: 100px;
+    margin-top: 2rem;
   }
   .description {
     order: 1;
