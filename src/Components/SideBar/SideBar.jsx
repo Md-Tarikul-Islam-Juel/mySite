@@ -17,7 +17,7 @@ export default function SideBar() {
             <nav className={toggle ? 'close sidebar' : 'sidebar'}>
                 <header className="header">
                     <div className="image-text">
-                        <Link to="/">
+                        <Link to="/" className="logo">
                             <span className="image">TIJ</span>
                         </Link>
 
