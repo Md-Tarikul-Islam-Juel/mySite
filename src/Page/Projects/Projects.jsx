@@ -1,11 +1,14 @@
 import React from 'react';
+import Cards from '../../Components/Cards/Cards';
+import projectImages from '../../projectImages';
+
 import './Projects.css';
 
 export default function Projects() {
     return (
         <>
             <section className="main-body ">
-                <div className="projects">Projects</div>
+                <Cards Images={projectImages} />
             </section>
         </>
     );
