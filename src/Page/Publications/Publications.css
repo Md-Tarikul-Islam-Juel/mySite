@@ -1,0 +1,50 @@
+.container {
+  padding: 2rem 0;
+}
+.publication-text {
+  text-align: center;
+  color: #6ab04c;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.publication-card {
+  margin: 2rem 0;
+  border-radius: 5px;
+}
+.publication-card {
+  background-color: #6ab04c;
+  padding: 1rem;
+}
+.publication-no {
+  font-weight: bold;
+}
+.publication-card p {
+  margin-bottom: initial;
+  color: #181824;
+  text-align: justify;
+}
+.myNameInPublication {
+  font-weight: bold;
+}
+.publication-btn {
+  background-color: #fa8231;
+  margin-top: 1rem;
+}
+
+/*=================================================================*/
+/*----------------------Media query start--------------------------*/
+/*=================================================================*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  ## oneplus6T width 412px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .publication-card {
+    margin: 1rem 1rem;
+  }
+}
+/*=================================================================*/
+/*----------------------Media query End----------------------------*/
+/*=================================================================*/

@@ -107,3 +107,7 @@
       box-shadow: 0 0 15px #d35400;
       text-shadow: 0 0 15px #d35400;
     } */
+.tooltip > div.tooltip-inner {
+  background-color: #fff !important;
+  color: #000 !important;
+}
