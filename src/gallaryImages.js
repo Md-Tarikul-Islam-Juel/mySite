@@ -65,6 +65,15 @@ const gallaryImages = [
     {
         image: 'img/Gallary/22.jpg',
     },
+    {
+        image: 'img/Gallary/23.jpg',
+    },
+    {
+        image: 'img/Gallary/24.jpg',
+    },
+    {
+        image: 'img/Gallary/25.jpg',
+    },
 ];
 
 export default gallaryImages;
