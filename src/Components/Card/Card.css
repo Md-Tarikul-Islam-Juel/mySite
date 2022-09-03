@@ -8,3 +8,6 @@
   flex-direction: row;
   justify-content: center;
 }
+.lazy-load-image-background.blur.lazy-load-image-loaded {
+  text-align: center;
+}
