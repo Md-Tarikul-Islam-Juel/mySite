@@ -10,7 +10,8 @@ export default function Cards({ Images }) {
                 <div className="row cards-row-1">
                     {Images.map((item) => (
                         <div className="CARD">
-                            <Card img={item.image} />
+                            {' '}
+                            <Card img={item.image} />{' '}
                         </div>
                     ))}
                 </div>
