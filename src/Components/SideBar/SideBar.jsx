@@ -3,7 +3,6 @@ import { AiOutlineHome, AiOutlineRight } from 'react-icons/ai';
 import { BsFillImageFill } from 'react-icons/bs';
 import { FaRobot } from 'react-icons/fa';
 import { ImBook } from 'react-icons/im';
-import { IoMdContact } from 'react-icons/io';
 
 import { Link } from 'react-router-dom';
 
@@ -63,13 +62,6 @@ export default function SideBar() {
                                 <Link to="/publications" className="a">
                                     <ImBook className="icon" />
                                     <span className="text nav-text">Publications</span>
-                                </Link>
-                            </li>
-
-                            <li className="nav-link">
-                                <Link to="/contact" className="a">
-                                    <IoMdContact className="icon" />
-                                    <span className="text nav-text">Contact Me</span>
                                 </Link>
                             </li>
                         </ul>
